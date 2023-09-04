@@ -63,6 +63,13 @@
             }else{
                 $("#usernameV").addClass("d-none");
             }
+
+            if($("#password").val() == ""){
+                $("#passwordV").removeClass("d-none");
+                
+            }else{
+                $("#passwordV").addClass("d-none");
+            }
         })
     </script>
 </body>
